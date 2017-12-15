@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body {
+	font-family: myFirstFont;
+	
+	background-color: #0F0;
+	
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src:url(font1.ttf);
+}
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 3ex;
+}
+/* header * {
+	display: block;
+	float: left;
+} */
+
+div#content {
+	border: 3px solid black;
+	width: 800px;
+	margin: 20px;
+	padding: 30px;
+}
+header,section,footer{
+	border: 1px solid violet;
+	width: 80%;
+	padding: 10px;
+	
+	
+}
+section p{
+	width: 60%;
+	float: left;
+	
+}
+section img{
+	display: block;
+	width: 30%;
+	float: right;
+
+}
+section hr{
+	display: block;
+		margin: auto;
+		width: 80%;
+}
+section iframe{
+	
+	display: block;
+	width: 50%;
+	float: left;
+	height:;
+	
+}
+footer{
+	clear: all;
+	
+}
+footer ul li{
+	float: left;
+	 width: 80px;
+	border: 1px solid black;
+	text-align: center;
+	list-style-type: none;
+
+}
+footer ul{
+	display:inline-block;
+
+}
